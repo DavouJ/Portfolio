@@ -13,7 +13,7 @@
     --black-color: hsl(228, 6%, 4%);
     --body-color: hsl(228, 6%, 8%);
     --container-color: hsl(228, 6%, 12%);
-    --shadow-img: 0 0 48px hsla(269, 54%, 54%, .4);
+    --shadow-img: 0 0 0.75rem hsla(269, 54%, 54%, .4);
     --gradient-card: linear-gradient(180deg, hsla(93, 8%, 8%), hsla(269, 40%, 30%));
 
     /* font */
