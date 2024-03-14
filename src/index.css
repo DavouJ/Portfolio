@@ -7,13 +7,15 @@
     --first-color: hsl(269, 49%, 55%);
     --first-color-alt: hsl(269, 49%, 44%);
     --first-color-light: hsl(269, 55%, 60%);
+    --second-color: hsl(66, 97%, 74%);
     --title-color: hsl(228, 8%, 98%);
     --text-color: hsl(228, 8%, 70%);
     --white-color: hsl(228, 8%, 98%);
     --black-color: hsl(228, 6%, 4%);
     --body-color: hsl(228, 6%, 8%);
     --container-color: hsl(228, 6%, 12%);
-    --shadow-img: 0 0 0.75rem hsla(269, 54%, 54%, .4);
+    --shadow-img: 0 0 3rem hsla(269, 54%, 54%, .4);
+    --second-shadow-img: 0 0 3rem hsla(66, 61%, 63%, .4);
     --gradient-card: linear-gradient(180deg, hsla(93, 8%, 8%), hsla(269, 40%, 30%));
 
     /* font */
@@ -107,8 +109,6 @@ img {
     margin-bottom: 1rem;
 }
 
-.main{
+.main {
     overflow: hidden;
 }
-
-
