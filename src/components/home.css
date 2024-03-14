@@ -115,3 +115,29 @@
     background-color: var(--first-color);
 
 }
+
+@media screen and (max-width: 620px) {
+    .tech__list {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .tech__item {
+        display: flex;
+        flex-direction: column;
+        filter: drop-shadow(var(--shadow-img));
+        color: var(--white-color);
+        font-size: 3rem;
+        
+        align-items: center;
+        transition: transform .6s;
+    }
+
+    .tech__item:hover {
+        transform: translateX(50%);
+        filter: drop-shadow(var(--second-shadow-img));
+        color: var(--second-color);
+    }
+}

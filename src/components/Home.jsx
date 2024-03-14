@@ -14,7 +14,7 @@ function Home() {
                         <span>DAVOU JOBBI</span> <br />Graduate Software Developer<br />
                     </h1>
 
-                    <p class="home__description">
+                    <p className="home__description">
                         Welcome to my website! ( Developed in React by yours truly <i className="ri-reactjs-line react"></i> ) <br /> <br/> My name is Davou and I’m a recent graduate with experience in software development and project management.
                     </p>
 
@@ -32,7 +32,7 @@ function Home() {
                             </li>
                             <li className="tech__item">
                             <span className='tech__text'>CSS</span>
-                                <i class="ri-css3-fill"></i>
+                                <i className="ri-css3-fill"></i>
                                 
                             </li>
                             <li className="tech__item">
@@ -62,7 +62,7 @@ function Home() {
                             </li>
                             <li className="tech__item">
                             <span className='tech__text'>Bootstrap</span>
-                            <i class="ri-bootstrap-fill"></i>
+                            <i className="ri-bootstrap-fill"></i>
                             
                             </li>
                             
@@ -73,7 +73,7 @@ function Home() {
                         <Link href="#" to="#" className="button" >
 
                             <span className='button__icon'>
-                                <i class="ri-skip-right-line"></i>
+                                <i className="ri-skip-right-line"></i>
                             </span>
                             <span className='button__text'>
                                 ABOUT ME
@@ -81,7 +81,7 @@ function Home() {
                         </Link>
                         <Link href="#" to="#" className="button" >
                             <span className='button__icon'>
-                                <i class="ri-skip-right-line"></i>
+                                <i className="ri-skip-right-line"></i>
                             </span>
                             <span className='button__text'>
                                 PROJECTS

@@ -2,6 +2,8 @@ import React from 'react'
 import "./about.css"
 
 function About() {
+
+    
     return (
         <section className='about section' id="about">
             <div className='new__container container grid'>
@@ -17,25 +19,25 @@ function About() {
 
                 <div className="new__content grid">
                     <article className="new__card">
-                        <img src="" alt="Undergrad Graduation" className="new__img" />
+                        <img src="src/assets/undergrad.JPG" alt="Undergrad Graduation" className="new__img" />
                         <h2 className="new__title">
-
+                            BSc Computer Science - Lancaster University - 2022
                         </h2>
                     </article>
+                    
                     <article className="new__card">
-                        <img src="" alt="Undergrad Graduation" className="new__img" />
+                        <img src="src/assets/postgrad.jpg" alt="Postgrad Graduation" className="new__img" />
                         <h2 className="new__title">
-                            
+                            MSc Project Management - Lancaster University - 2023
                         </h2>
                     </article>
+                    <img src="src/assets/arrow.png" alt="arrow" className='arrow'/>
+
+                    
 
                 </div>
 
-                <div className="new__content grid">
-                    <article className="new__card">
-
-                    </article>
-                </div>
+        
             </div>
         </section>
     )

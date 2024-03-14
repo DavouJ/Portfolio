@@ -1,0 +1,83 @@
+.new__data {
+    text-align: center;
+}
+
+.new__container {
+    row-gap: 7.5rem !important;
+}
+
+.new__content {
+    row-gap: 6rem !important;
+}
+
+.new__card {
+    position: relative;
+    width: 250px;
+    border: 0.7rem solid hsl(180, 2%, 87%);
+    background: hsl(180, 2%, 87%);
+    border-radius: 2%;
+    transition: all .4s;
+
+}
+
+.new__card h2 {
+    font-family: var(--sketch-font);
+    color: var(--black-color)
+}
+
+
+.new__img {
+    overflow: hidden;
+    clip-path: polygon(0 5%,
+            10% 0,
+            90% 0,
+            100% 5%,
+            100% 95%,
+            90% 100%,
+            10% 100%,
+            0% 95%,
+            0% 10%);
+    
+}
+
+.new__title{
+    padding: 2rem 0rem;
+    font-size: var(--h2-font-size);
+    text-align: center;
+}
+
+.new__card:nth-child(odd){
+    rotate: -5deg;
+}
+.new__card:nth-child(even){
+    justify-self: end;
+    rotate: 5deg;
+}
+
+.new__card:nth-child(even) .new__title{
+    rotate: 4deg ;
+}
+.new__card:nth-child(odd) .new__title{
+    rotate: -4deg ;
+}
+
+.new__card:hover{
+    transform: translateY(-.5rem);
+    filter: drop-shadow(var(--shadow-img));
+}
+
+.arrow{
+    height: 19rem;
+    color: var(--white-color);
+    rotate: -50deg;
+    position: absolute;
+    top: 1900px;
+    left: 28%;
+    filter: drop-shadow(var(--shadow-img));
+}
+
+@media screen and (max-width: 620px) {
+    .arrow{
+        display: none;
+    }
+}
