@@ -32,16 +32,16 @@ function Navbar() {
             <div className={clicked} id="nav-menu">
                 <ul className="nav__list">
                     <li className="nav__item">
-                        <Link to="#" className="nav__link" onClick={hideMenu}>Home</Link>
+                        <a href="#" className="nav__link" onClick={hideMenu}>Home</a>
                     </li>
                     <li className="nav__item">
-                        <Link to="#" className="nav__link" onClick={hideMenu}>About Me</Link>
+                        <a href="#about" className="nav__link" onClick={hideMenu}>About Me</a>
                     </li>
                     <li className="nav__item">
-                        <Link to="#" className="nav__link" onClick={hideMenu}>Projects</Link>
+                        <a href="#projects" className="nav__link" onClick={hideMenu}>Projects</a>
                     </li>
                     <li className="nav__item">
-                        <Link to="#" className="nav__link" onClick={hideMenu}>Contact Me</Link>
+                        <a href="#contact" className="nav__link" onClick={hideMenu}>Contact Me</a>
                     </li>
                 </ul>
                 {/* close button */}
