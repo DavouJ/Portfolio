@@ -63,10 +63,12 @@
 .project__card:hover{
     transform: translateY(-1rem);
     background: var(--second-gradient-card);
+    filter: drop-shadow(var(--second-shadow-img));
 }
 
 .project__card:hover .project__img{
     transform: rotate(5deg) translateY(-.5rem);
+    
 }
 
 .project__card:hover .project__button{
