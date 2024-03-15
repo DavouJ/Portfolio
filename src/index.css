@@ -17,7 +17,8 @@
     --container-color: hsl(228, 6%, 12%);
     --shadow-img: 0 0 3rem hsla(269, 54%, 54%, .4);
     --second-shadow-img: 0 0 3rem hsla(66, 61%, 63%, .4);
-    --gradient-card: linear-gradient(180deg, hsla(93, 8%, 8%), hsla(269, 40%, 30%));
+    --gradient-card: linear-gradient(0deg, hsla(93, 8%, 8%), hsla(269, 40%, 30%));
+    --second-gradient-card: linear-gradient(0deg, hsla(93, 8%, 8%), hsla(66, 97%, 74%));
 
     /* font */
     --body-font: "Montserrat", sans-serif;

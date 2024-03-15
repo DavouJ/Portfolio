@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import { Link } from "react-scroll"
 import "./navbar.css"
 
@@ -6,21 +6,18 @@ import "./navbar.css"
 
 
 
+
 function Navbar() {
 
+    const  [clicked, setClicked] = useState('nav__menu')
+
     const showMenu = (e) => {
-        const navMenu = document.getElementById('nav-menu'),
-            navToggle = document.getElementById('nav-toggle'),
-            navClose = document.getElementById("nav-close");
-        navMenu.classList.add('show-menu')
+        setClicked("nav__menu show-menu")
     }
 
 
     const hideMenu = (e) => {
-        const navMenu = document.getElementById('nav-menu'),
-            navToggle = document.getElementById('nav-toggle'),
-            navClose = document.getElementById("nav-close");
-        navMenu.classList.remove('show-menu')
+        setClicked('nav__menu')
     }
 
     
@@ -32,7 +29,7 @@ function Navbar() {
             <a href="#" className="nav__logo">
                 <i className="ri-git-repository-line"></i> Portfolio
             </a>
-            <div className="nav__menu" id="nav-menu">
+            <div className={clicked} id="nav-menu">
                 <ul className="nav__list">
                     <li className="nav__item">
                         <Link to="#" className="nav__link" onClick={hideMenu}>Home</Link>
