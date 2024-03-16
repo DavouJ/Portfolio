@@ -1,63 +1,63 @@
 [
     {
         "title": "Bloomify",
-        "image": "../src/assets/bloomify.gif",
+        "image": "assets/bloomify.gif",
         "link": "https://bl00mify.netlify.app/",
         "tech": ["JavaScript", "HTML", "CSS", "React", "Ant Design"],
         "isDeployed": true
     },
     {
         "title": "Virtual Art Gallery",
-        "image": "../src/assets/art-gallery.png",
+        "image": "assets/art-gallery.png",
         "link": "https://adriannaderkacz.github.io/virtual-art-gallery/",
         "tech": ["JavaScript", "Bootstrap", "HTML", "CSS"],
         "isDeployed": true
     },
     {
         "title": "Quantum Blockchain",
-        "image": "../src/assets/quantumgif.gif",
+        "image": "assets/quantumgif.gif",
         "link": "https://github.com/DavouJ/QuantumBlockchain-2022",
         "tech": ["Java"],
         "isDeployed": false
     },
     {
         "title": "Solar System",
-        "image": "../src/assets/solar-gif.gif",
+        "image": "assets/solar-gif.gif",
         "link": "https://github.com/DavouJ/Solar-system",
         "tech": ["Java"],
         "isDeployed": false
     },
     {
         "title": "Portfolio V2",
-        "image": "../src/assets/portfolio-v2.gif",
+        "image": "assets/portfolio-v2.gif",
         "link": "https://davouj.github.io/SWE-Portfolio/",
         "tech": ["HTML", "CSS",  "Bootstrap"],
         "isDeployed": true
     },
     {
         "title": "Ping Calculator",
-        "image": "../src/assets/pinggif.gif",
+        "image": "assets/pinggif.gif",
         "link": "https://github.com/DavouJ/Ping-Traceroute",
         "tech": ["Python"],
         "isDeployed": false
     },
     {
         "title": "Minesweeper",
-        "image": "../src/assets/minesweepergif.gif",
+        "image": "assets/minesweepergif.gif",
         "link": "https://github.com/DavouJ/Minesweeper",
         "tech": ["Java"],
         "isDeployed": false
     },
     {
         "title": "Weather App",
-        "image": "../src/assets/weather-app.gif",
+        "image": "assets/weather-app.gif",
         "link": "https://davouj.github.io/Weather-App/",
         "tech": ["JavaScript", "HTML", "CSS"],
         "isDeployed": true
     },
     {
         "title": "Password Generator",
-        "image": "../src/assets/password-gen.gif",
+        "image": "assets/password-gen.gif",
         "link": "https://davouj.github.io/Random-Password-Generator-Tool/",
         "tech": ["JavaScript", "HTML", "CSS"],
         "isDeployed": true

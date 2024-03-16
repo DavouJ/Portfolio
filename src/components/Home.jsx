@@ -9,7 +9,7 @@ function Home() {
     <section className="home section" id="home">
       <Fade  >
       <div className="home__container container grid">
-        <img src="src/assets/memoji.png" alt="memoji" className="home__img" />
+        <img src="assets/memoji.png" alt="memoji" className="home__img" />
 
         <div className="home__data">
           <Fade  direction={"down"}>

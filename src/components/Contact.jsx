@@ -11,7 +11,7 @@ function Contact() {
             <Fade  direction={'up'}>
             <div className="contact__container container grid">
             
-                <img src="src/assets/port.PNG" alt="Contact Image" className="contact__img" />
+                <img src="assets/port.PNG" alt="Contact Image" className="contact__img" />
                 <Fade  direction={'down'}>
                 <div className="contact__content">
                     <div>
