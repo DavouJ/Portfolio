@@ -1,7 +1,7 @@
 .project__container {
     padding-top: 6.5rem;
     grid-template-columns: repeat(2, 1fr);
-    gap: 6rem 3rem !important;
+    gap: 6rem 1.5rem !important;
 }
 
 .project__card {
@@ -19,7 +19,7 @@
     bottom: 7.3rem;
     left: 2rem;
     right: 0;
-    min-width: 11.25rem;
+    /* min-width: 11.25rem; */
     max-width: 12rem;
     max-height: 8.125rem;
     margin: 0 auto;
@@ -82,15 +82,24 @@
 }
 
 /* breakpoints */
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 530px) {
     .project__container {
-        grid-template-columns: 160px;
+        grid-template-columns: 1fr;
+        margin-inline: 10% !important;
 
     }
-
 }
 
-@media screen and (min-width: 576px) {
+/* @media screen and (min-width: 576px){
+    .project__container {
+        grid-template-columns:repeat(3,1fr);
+        justify-content: center;
+        gap: 6rem 2rem!important
+    }
+
+} */
+
+@media screen and (min-width: 780px) {
     .project__container {
         grid-template-columns: repeat(3, 1fr);
         justify-content: center;

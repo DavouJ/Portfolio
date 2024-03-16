@@ -155,10 +155,7 @@
         color: var(--second-color);
     }
 }
-@media screen and (min-width: 576px){
-    
 
-}
 
 @media screen and (min-width: 1150px) {
     .home__container{
