@@ -116,6 +116,20 @@
 
 }
 
+/* breakpoints */
+@media screen and (max-width: 320px){
+    .home__title{
+        font-size: 2rem;
+    }
+    .home__buttons{
+        flex-direction: column;
+        row-gap: 1.5rem;
+    }
+
+    
+    
+}
+
 @media screen and (max-width: 620px) {
     .tech__list {
         display: flex;
@@ -139,5 +153,29 @@
         transform: translateX(50%);
         filter: drop-shadow(var(--second-shadow-img));
         color: var(--second-color);
+    }
+}
+@media screen and (min-width: 576px){
+    .new__container{
+        grid-template-columns: 570px;
+        justify-content: center;
+    }
+    
+}
+
+@media screen and (min-width: 1150px) {
+    .home__container{
+        grid-template-columns: 480px 535px;
+        align-items: center;
+        column-gap: 4rem;
+        padding-top: 4rem;
+    }
+
+    .home__img{
+        width: 480px;
+    }
+    
+    .home__description{
+        margin-bottom: 4.5rem;
     }
 }

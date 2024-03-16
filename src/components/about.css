@@ -68,7 +68,7 @@
 
 .arrow{
     height: 19rem;
-    color: var(--white-color);
+    
     rotate: -50deg;
     position: absolute;
     top: 1900px;
@@ -79,5 +79,40 @@
 @media screen and (max-width: 620px) {
     .arrow{
         display: none;
+    }
+}
+
+/* breakpoints*/
+@media screen and (min-width: 768px) {
+    .arrow{
+        position: absolute;
+        top: 1900px;
+        left: 30%;
+        filter: drop-shadow(var(--shadow-img));
+    }
+}
+@media screen and (min-width: 1150px) {
+    .new__content {
+        row-gap: 0rem !important;
+    }
+    .new__card {
+        width: 200px;
+    }
+    .new__img {
+        height: 200px;
+        width:  200px;
+        object-fit: cover;
+        object-position: 0 0%;
+    }
+    .arrow{
+        height: 15rem;
+        position: absolute;
+        top: 1350px;
+        left: 57%;
+        filter: drop-shadow(var(--shadow-img));
+    }
+    .new__container {
+        grid-template-columns: 412px 490px;
+        align-items: center;
     }
 }

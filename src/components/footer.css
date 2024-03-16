@@ -3,7 +3,7 @@ footer{
 }
 
 .footer__container{
-    row-gap: 4rem;
+    gap: 4rem ;
 }
 
 .footer__logo{
@@ -21,6 +21,7 @@ footer{
     font-size: 1.5rem;
     font-weight: initial;
 }
+
 .footer__content{
     grid-template-columns: repeat(2, 1fr);
     gap: 4rem 3rem;
@@ -49,4 +50,23 @@ footer{
     margin-top: 6rem;
     text-align: center;
     font-size: var(--small-font-size);
+}
+
+/* breakpoints */
+@media screen and (max-width: 320px){
+    .footer__content{
+        grid-template-columns: max-content;
+    }
+    
+}
+
+@media screen and (min-width: 768px){
+    
+    .footer__container{
+        gap: 6rem;
+        grid-template-columns: 1fr max-content;
+        
+        
+    }
+    
 }

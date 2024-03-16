@@ -8,7 +8,7 @@
     position: relative;
     background: var(--gradient-card);
     padding: 4.5rem .2rem 1rem .75rem;
-    
+
     border-radius: 1rem;
     transition: all .4s ease;
 }
@@ -35,7 +35,8 @@
 }
 
 .project__tech {
-    margin-right: 1rem;;
+    margin-right: 1rem;
+    ;
     margin-bottom: 1rem;
     display: flex;
     font-size: var(--h1-font-size);
@@ -46,7 +47,7 @@
 
 }
 
-.project__button{
+.project__button {
     outline: none;
     border: none;
     color: var(--white-color);
@@ -56,25 +57,61 @@
     font-weight: var(--font-semi-bold);
     transition: all .5s;
 }
-.tech__btn{
+
+.tech__btn {
     transition: all 1s;
 }
 
-.project__card:hover{
+.project__card:hover {
     transform: translateY(-1rem);
     background: var(--second-gradient-card);
     filter: drop-shadow(var(--second-shadow-img));
 }
 
-.project__card:hover .project__img{
+.project__card:hover .project__img {
     transform: rotate(5deg) translateY(-.5rem);
-    
+
 }
 
-.project__card:hover .project__button{
+.project__card:hover .project__button {
     font-size: var(--h1-font-size);
 }
 
-.project__card:hover .tech__btn{
+.project__card:hover .tech__btn {
     transform: rotateY(360deg);
+}
+
+/* breakpoints */
+@media screen and (max-width: 320px) {
+    .project__container {
+        grid-template-columns: 160px;
+
+    }
+
+}
+
+@media screen and (min-width: 576px) {
+    .project__container {
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
+        gap: 6rem 2rem !important;
+
+    }
+}
+
+@media screen and (min-width: 1150px) {
+    .project__container {
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
+        gap: rem 5rem !important;
+
+    }
+
+    .project__img {
+        bottom: 8rem;
+    }
+
+    .project__card:hover .project__button {
+        font-size: var(--h2-font-size);
+    }
 }
