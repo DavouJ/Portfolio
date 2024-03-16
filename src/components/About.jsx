@@ -41,7 +41,7 @@ function About() {
           
             <article className="new__card">
               <img
-                src="/src/assets/postgrad.jpg"
+                src={require("../assets/postgrad.jpg")}
                 alt="Postgrad Graduation"
                 className="new__img"
               />
