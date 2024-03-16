@@ -108,7 +108,7 @@
         height: 15rem;
         position: absolute;
         top: 1350px;
-        left: 61%;
+        left: 56%;
         filter: drop-shadow(var(--shadow-img));
     }
     .new__container {
