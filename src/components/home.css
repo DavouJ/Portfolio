@@ -19,7 +19,7 @@
     margin-bottom: 1rem;
 }
 
-.home__title span {
+.home__title a {
     color: var(--first-color)
 }
 
@@ -156,20 +156,20 @@
     }
 }
 @media screen and (min-width: 576px){
-    .new__container{
-        grid-template-columns: 570px;
-        justify-content: center;
-    }
     
+
 }
 
 @media screen and (min-width: 1150px) {
     .home__container{
+        
         grid-template-columns: 480px 535px;
         align-items: center;
         column-gap: 4rem;
-        padding-top: 4rem;
+        
     }
+
+    
 
     .home__img{
         width: 480px;

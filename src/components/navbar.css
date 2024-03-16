@@ -86,6 +86,11 @@
 @media screen and (min-width: 1150px) {
     .nav {
         height:calc(var(--header-height) + 2rem);
+        
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        
+        
     }
     .nav__toggle,
     .nav__close {
@@ -97,6 +102,7 @@
     }
     .nav__menu{
         width:initial;
+        justify-self: end;
     }
     .nav__list{
         flex-direction: row;

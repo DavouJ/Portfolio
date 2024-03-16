@@ -51,8 +51,7 @@ function Navbar() {
             </div>
 
             <div className="nav__actions">
-                <i className="ri-user-2-line"></i>
-                <i className="ri-terminal-box-line"></i>
+                
 
                 {/* toggle */}
                 <div className="nav__toggle" id="nav-toggle" onClick={showMenu}>

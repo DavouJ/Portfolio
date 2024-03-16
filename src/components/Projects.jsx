@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import axios from 'axios';
 import { SiMysql, SiAntdesign } from "react-icons/si";
+import { Fade } from "react-awesome-reveal";
 import "./projects.css"
 
 function Projects() {
@@ -22,7 +23,7 @@ function Projects() {
 
 
     return (
-        <section className="projects section" id="p">
+        <section className="projects section" id="projects">
             <h2 className="section__title">
                 PROJECTS
             </h2>
@@ -55,6 +56,7 @@ function Projects() {
                     });
 
                     return (
+                        <Fade key={index} triggerOnce={true} delay={index*100} direction={'up'}>
                         <article key={index} className="project__card">
                             <img src={projects[index].image} alt={projects[index].title} className="project__img" />
                             <h3 className="project__title">
@@ -67,6 +69,7 @@ function Projects() {
                                 {projects[index].isDeployed === true ? <i className="ri-window-line"></i> :<i className="ri-github-fill"></i>}
                             </a>
                         </article>
+                        </Fade>
                     )
                 })}
             </div>

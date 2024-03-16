@@ -103,15 +103,20 @@
     .project__container {
         grid-template-columns: repeat(3, 1fr);
         justify-content: center;
-        gap: rem 5rem !important;
+        gap: 7rem 5rem !important;
 
     }
 
     .project__img {
-        bottom: 8rem;
+        bottom: 9rem;
+        max-width: 15rem;
+        max-height: 10rem;
     }
 
     .project__card:hover .project__button {
         font-size: var(--h2-font-size);
+    }
+    .project__title{
+        font-size: var(--h3-font-size);
     }
 }

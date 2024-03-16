@@ -86,7 +86,7 @@
 @media screen and (min-width: 768px) {
     .arrow{
         position: absolute;
-        top: 1900px;
+        top: 1800px;
         left: 30%;
         filter: drop-shadow(var(--shadow-img));
     }
@@ -108,11 +108,13 @@
         height: 15rem;
         position: absolute;
         top: 1350px;
-        left: 57%;
+        left: 61%;
         filter: drop-shadow(var(--shadow-img));
     }
     .new__container {
         grid-template-columns: 412px 490px;
         align-items: center;
+        justify-content: space-evenly;
+        gap: 3rem;
     }
 }
