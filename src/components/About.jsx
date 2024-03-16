@@ -30,7 +30,7 @@ function About() {
           
             <article className="new__card">
               <img
-                src="../assets/undergrad.JPG"
+                src="./src/assets/undergrad.JPG"
                 alt="Undergrad Graduation"
                 className="new__img"
               />
@@ -41,7 +41,7 @@ function About() {
           
             <article className="new__card">
               <img
-                src="../assets/postgrad.jpg"
+                src="./src/assets/postgrad.jpg"
                 alt="Postgrad Graduation"
                 className="new__img"
               />
@@ -54,7 +54,7 @@ function About() {
           
         </div>
         </Fade>
-        <img src="../assets/arrow.png" alt="arrow" className="arrow" />
+        <img src="./src/assets/arrow.png" alt="arrow" className="arrow" />
       </div>
     </section>
   );
