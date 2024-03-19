@@ -1,6 +1,6 @@
 .home__container {
-    padding-top: 2.5rem;
-    row-gap: 2rem;
+    
+    row-gap: 0 !important;
 }
 
 .home__img {
@@ -19,9 +19,10 @@
     margin-bottom: 1rem;
 }
 
-.home__title a {
+.home__title span {
     color: var(--first-color)
 }
+
 
 .home__description {
     margin-bottom: 3rem;
@@ -125,12 +126,14 @@
         flex-direction: column;
         row-gap: 1.5rem;
     }
+    
 
     
     
 }
 
 @media screen and (max-width: 620px) {
+    
     .tech__list {
         display: flex;
         flex-direction: column;
