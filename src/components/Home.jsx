@@ -94,7 +94,7 @@ function Home() {
               </span>
               <span className="button__text">PROJECTs</span>
             </a>
-            <a href="https://www.google.com" target="_blank" className="button">
+            <a href="https://1drv.ms/w/s!Aqj5rF7sOC4B8T0MEo7EYwcEe-dj?e=EHY6FR" target="_blank" className="button">
               <span className="button__icon">
                 <i className="ri-skip-right-line"></i>
               </span>
