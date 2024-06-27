@@ -1,7 +1,8 @@
 import React from "react";
 import { Link } from "react-scroll";
 import "./home.css";
-import { SiMysql, SiAntdesign } from "react-icons/si";
+import { SiMysql, SiAntdesign, SiDocker, SiMongodb, SiScala  } from "react-icons/si";
+
 import {  Fade } from "react-awesome-reveal";
 
 function Home() {
@@ -66,6 +67,12 @@ function Home() {
                 <i className="fa-brands fa-python"></i>
               </li>
               </Fade>
+              <Fade delay={900} direction={'down'}> 
+              <li className="tech__item">
+                <span className="tech__text">MongoDB</span>
+                <SiMongodb/>
+              </li>
+              </Fade>
               <Fade delay={800} direction={'up'}> 
               <li className="tech__item">
                 <span className="tech__text">MySQL</span>
@@ -82,6 +89,18 @@ function Home() {
               <li className="tech__item">
                 <span className="tech__text">Bootstrap</span>
                 <i className="ri-bootstrap-fill"></i>
+              </li>
+              </Fade>
+              <Fade delay={900} direction={'down'}> 
+              <li className="tech__item">
+                <span className="tech__text">Docker</span>
+                <SiDocker/>
+              </li>
+              </Fade>
+              <Fade delay={900} direction={'down'}> 
+              <li className="tech__item">
+                <span className="tech__text">Scala</span>
+                <SiScala/>
               </li>
               </Fade>
             </ul>
